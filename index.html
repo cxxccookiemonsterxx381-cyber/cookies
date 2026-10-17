@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deadweight — a gym on Foundry Street</title>
+  <meta name="description" content="Deadweight is a small 24/7 strength gym on Foundry Street. Real coaches, no contracts, no shouting." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- background layers -->
+  <div class="aurora" aria-hidden="true">
+    <span class="blob blob-a"></span>
+    <span class="blob blob-b"></span>
+    <span class="blob blob-c"></span>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="dock">
+    <nav class="dock-inner glass">
+      <a class="wordmark" href="#top">Deadweight</a>
+      <ul class="dock-links">
+        <li><a href="#timetable">Timetable</a></li>
+        <li><a href="#floor">The floor</a></li>
+        <li><a href="#coaches">Coaches</a></li>
+        <li><a href="#price">Price</a></li>
+      </ul>
+      <a class="pill pill-solid" href="#join">First week free</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <p class="kicker">Foundry St. · open since 2016 · keys to 2,300 people</p>
+        <h1>A gym that<br /><em>doesn't shout</em><br />at you.</h1>
+        <p class="lede">
+          Forty barbells, six racks, one very loud fan. No sales desk, no
+          contract you need a lawyer for, and nobody waiting to "discuss your
+          goals" when you walk in. Train, sweat, go home.
+        </p>
+        <div class="hero-cta">
+          <a class="pill pill-solid" href="#join">Claim a free week</a>
+          <a class="pill pill-ghost" href="#timetable">See this week's timetable</a>
+        </div>
+        <dl class="hero-facts">
+          <div><dt>5am–11pm</dt><dd>staffed hours, 24/7 for members</dd></div>
+          <div><dt>142</dt><dd>classes booked this month</dd></div>
+          <div><dt>0</dt><dd>contract length, ever</dd></div>
+        </dl>
+      </div>
+
+      <div class="hero-glass reveal" data-delay="1">
+        <div class="glass panel pass" id="pass">
+          <span class="pass-tag">member pass</span>
+          <p class="pass-name">Day pass · guest</p>
+          <p class="pass-qr" aria-hidden="true"></p>
+          <p class="pass-foot"><span id="clock">--:--</span> · tap at the door</p>
+        </div>
+        <div class="glass panel quote">
+          <p>"I came for six weeks of rehab. That was 2019."</p>
+          <span>— actual member, not a stock photo</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>squat racks × 6</span><i></i><span>deadlift platforms × 4</span><i></i>
+        <span>competition benches × 3</span><i></i><span>assault bikes that all work</span><i></i>
+        <span>sled track, 20m</span><i></i><span>sauna, yes really</span><i></i>
+        <span>squat racks × 6</span><i></i><span>deadlift platforms × 4</span><i></i>
+        <span>competition benches × 3</span><i></i><span>assault bikes that all work</span><i></i>
+        <span>sled track, 20m</span><i></i><span>sauna, yes really</span><i></i>
+      </div>
+    </div>
+
+    <!-- TIMETABLE -->
+    <section class="section container" id="timetable">
+      <header class="section-head reveal">
+        <h2>This week, roughly</h2>
+        <p>Drop in to any session that's included in your plan. If it's full, you'll see it here — no surprise waitlists.</p>
+      </header>
+      <div class="grid reveal" data-delay="1">
+        <article class="glass tile tile-wide">
+          <span class="tile-day">Mon / Wed / Fri</span>
+          <h3>Barbell Club</h3>
+          <p>6:30am &amp; 6pm · with Marcus. Linear programming for people who want a bigger squat by spring. Chalk provided, ego left at the door.</p>
+          <span class="tile-meta">60 min · 12 spots</span>
+        </article>
+        <article class="glass tile">
+          <span class="tile-day">Tue / Thu</span>
+          <h3>Engine Room</h3>
+          <p>7am · intervals on bikes, rowers and the weird ski thing. Sofia will make you hurt nicely.</p>
+          <span class="tile-meta">45 min · 16 spots</span>
+        </article>
+        <article class="glass tile">
+          <span class="tile-day">Tue / Thu</span>
+          <h3>Mobility &amp; Rehab</h3>
+          <p>7:30pm · Dev's hour for hips, shoulders and the lower back you wrecked moving a couch.</p>
+          <span class="tile-meta">50 min · 10 spots</span>
+        </article>
+        <article class="glass tile">
+          <span class="tile-day">Saturday</span>
+          <h3>Long Session</h3>
+          <p>9am · two hours, coffee after. The one people actually stick with.</p>
+          <span class="tile-meta">120 min · 20 spots</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- THE FLOOR -->
+    <section class="section container" id="floor">
+      <header class="section-head reveal">
+        <h2>What's on the floor</h2>
+        <p>We buy equipment that lasts and fix it when it breaks. Here's the honest inventory.</p>
+      </header>
+      <ul class="floor-grid reveal" data-delay="1">
+        <li class="glass floor-item"><strong>6</strong> squat racks</li>
+        <li class="glass floor-item"><strong>4</strong> deadlift platforms</li>
+        <li class="glass floor-item"><strong>3</strong> comp benches</li>
+        <li class="glass floor-item"><strong>14</strong> barbells, olympic</li>
+        <li class="glass floor-item"><strong>20m</strong> sled track</li>
+        <li class="glass floor-item"><strong>2</strong> saunas</li>
+        <li class="glass floor-item"><strong>8</strong> machines, all working</li>
+        <li class="glass floor-item"><strong>1</strong> very loud fan</li>
+      </ul>
+    </section>
+
+    <!-- COACHES -->
+    <section class="section container" id="coaches">
+      <header class="section-head reveal">
+        <h2>Three people, no clipboard army</h2>
+        <p>Every coach here trains. They'll spot you, program for you, and tell you when you're going too heavy.</p>
+      </header>
+      <div class="grid reveal" data-delay="1">
+        <article class="glass tile coach">
+          <div class="coach-face" style="--h: 14">MR</div>
+          <h3>Marcus Reed</h3>
+          <p class="tile-day">Strength · 10 yrs coaching</p>
+          <p>Ex-powerlifter, three-time national qualifier. Believes every problem can be solved with a moderate weight and more reps.</p>
+        </article>
+        <article class="glass tile coach">
+          <div class="coach-face" style="--h: 190">SL</div>
+          <h3>Sofia Lane</h3>
+          <p class="tile-day">Engine &amp; conditioning</p>
+          <p>Ex-400m runner. Writes interval sets on the whiteboard and erases them when she sees your face.</p>
+        </article>
+        <article class="glass tile coach">
+          <div class="coach-face" style="--h: 285">DK</div>
+          <h3>Dev Khan</h3>
+          <p class="tile-day">Rehab &amp; mobility</p>
+          <p>CSCS, worked in physio for six years. Gets people back under the bar after surgery more often than you'd think.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PRICE -->
+    <section class="section container" id="price">
+      <header class="section-head reveal">
+        <h2>One page of pricing</h2>
+        <p>Cancel any month, no exit fee. Prices include VAT and all classes.</p>
+      </header>
+      <div class="grid grid-price reveal" data-delay="1">
+        <article class="glass tile">
+          <h3>Off-peak</h3>
+          <p class="price">£29<small>/mo</small></p>
+          <ul class="ticks">
+            <li>Access 10am–4pm, weekdays</li>
+            <li>All classes included</li>
+            <li>One free intro session</li>
+          </ul>
+          <a class="pill pill-ghost pill-block" href="#join">Choose off-peak</a>
+        </article>
+        <article class="glass tile tile-feature">
+          <span class="tile-flag">what most people pick</span>
+          <h3>Anytime</h3>
+          <p class="price">£55<small>/mo</small></p>
+          <ul class="ticks">
+            <li>24/7 door access</li>
+            <li>All classes included</li>
+            <li>Two guest passes a month</li>
+            <li>Quarterly body scan</li>
+          </ul>
+          <a class="pill pill-solid pill-block" href="#join">Choose anytime</a>
+        </article>
+        <article class="glass tile">
+          <h3>Coached</h3>
+          <p class="price">£120<small>/mo</small></p>
+          <ul class="ticks">
+            <li>Everything in Anytime</li>
+            <li>Four 1-to-1 sessions</li>
+            <li>Programming, written monthly</li>
+            <li>Check-in when you go quiet</li>
+          </ul>
+          <a class="pill pill-ghost pill-block" href="#join">Choose coached</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- JOIN / CONTACT -->
+    <section class="section container" id="join">
+      <div class="join glass reveal">
+        <div class="join-copy">
+          <h2>First week's free.<br /><em>No card, no pitch.</em></h2>
+          <p>
+            Drop your name in, we'll set up your fob and show you where the good
+            chalk is. Come in whenever — we're on Foundry St. next to the old
+            printworks, buzzer 2.
+          </p>
+          <dl class="hero-facts">
+            <div><dt>128 Foundry St.</dt><dd>buzzer 2, ground floor</dd></div>
+            <div><dt>(555) 019-2288</dt><dd>front desk, 5am–11pm</dd></div>
+          </dl>
+        </div>
+        <form class="join-form" id="join-form">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Jamie" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="jamie@email.com" required />
+          </label>
+          <label>
+            <span>What are you here for? <i>(optional)</i></span>
+            <textarea name="goal" rows="3" placeholder="Rebuilding a squat after a back thing..."></textarea>
+          </label>
+          <button class="pill pill-solid pill-block" type="submit">Send it over</button>
+          <p class="form-note" id="form-note" hidden>Got it — one of us will reply tomorrow, usually sooner.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>Deadweight · 128 Foundry St. · open 24/7 for members</p>
+    <p class="foot-fine">No robots were harmed. The fan, however, is on its last legs.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
